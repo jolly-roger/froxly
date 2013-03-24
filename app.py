@@ -3,4 +3,4 @@ def application(env, s_res):
     res_headers = [('Content-type', 'text/plain')]
     s_res(s, res_headers)
     #return [str(env)]
-    return ['Yo!!!']
+    return 'Yo!!!'
